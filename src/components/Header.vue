@@ -10,7 +10,12 @@
                 >
                     <v-tabs-slider color="pink lighten-4"></v-tabs-slider>
                     <v-tab v-for="item in menu" :key="item" >
-                            <a style="color: white; text-decoration: none;" :href="'#' + item">{{ item }}</a>
+                            <a style="color: white; text-decoration: none;" :href="'#' + item">
+                                <v-btn text 
+                                large
+                                color="white">
+                                    {{ item }}
+                                </v-btn></a>
                     </v-tab>
                 </v-tabs>
             </template>

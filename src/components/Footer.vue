@@ -32,7 +32,6 @@ export default {
         return{
              icons: [
                 'fab fa-facebook',
-                'fab fa-twitter',
                 'fab fa-instagram'
             ]
         }
@@ -42,10 +41,8 @@ export default {
         goToOurSocialNetworks(icon){
             if(icon == 'fab fa-facebook'){
                 window.location.assign('https://www.facebook.com/rosalinda.santos.5095')
-            }else if(icon == 'fab fa-twitter'){
-                window.location.assign('https://www.twitter.com')
             }else{
-                window.location.assign('https://www.instagram.com')
+                window.location.assign('https://www.instagram.com/rosenilda_alves_s/')
             }
         }
     }

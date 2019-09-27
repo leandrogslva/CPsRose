@@ -1,6 +1,25 @@
 <template>
     <div id="body">
-
+        <section>
+            <h1>Sobre</h1>
+            <v-container grid-list-xs>
+                <v-layout row wrap class="text-center">
+                    <v-flex xs4> 
+                        <h2> <v-icon x-large>mdi-map</v-icon> Onde atuamos </h2>
+                        <p>Atuo na região zona sul de São Paulo, no bairro Jardim São Francisco de Assis.</p>
+                    </v-flex>
+                    <v-flex xs4>
+                        <h2> <v-icon x-large>mdi-briefcase</v-icon> Como atuamos </h2>
+                        <p>Atualmente atendo por redes sociais ou pessoalmente, onde, após a realização do pedido, a entrega 
+                        é realizada pessoalmente tendo um local de encontro combinado por ambos.</p>
+                    </v-flex>
+                    <v-flex xs4>
+                        <h2> <v-icon x-large>mdi-equalizer</v-icon> O que valorizamos </h2>
+                        <p>Eficiência na entrega e a ótima qualidade do produto são os pilares do serviço.</p>
+                    </v-flex>
+                </v-layout>
+            </v-container>
+        </section>
         <section id="Boticario">
             <v-container grid-list-xs>
                 <h1>Boticario</h1>
@@ -128,8 +147,19 @@ export default {
         text-align: center;
         font-family: 'Times New Roman';
     }
+    h2{
+        font-size: 25px;
+        font-family: 'Times New Roman';
+    }
+    p{
+        font-size: 20px;
+        margin-left: 20px;
+        font-family: 'Times New Roman';
+        text-indent: 2em;
+    }
     section{
         min-height: 300px;
+        margin-left: 35px;
     }
     img{
         margin-top: 5px; 

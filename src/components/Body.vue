@@ -3,7 +3,7 @@
         <section>
             <h1>Sobre</h1>
             <v-container grid-list-xs>
-                <v-layout row wrap class="text-center">
+                <v-layout row wrap class="text-center mr-12">
                     <v-flex xs4> 
                         <h2> <v-icon x-large>mdi-map</v-icon> Onde atuamos </h2>
                         <p>Atuo na região zona sul de São Paulo, no bairro Jardim São Francisco de Assis.</p>
@@ -14,7 +14,7 @@
                         é realizada pessoalmente tendo um local de encontro combinado por ambos.</p>
                     </v-flex>
                     <v-flex xs4>
-                        <h2> <v-icon x-large>mdi-equalizer</v-icon> O que valorizamos </h2>
+                        <h2> <v-icon x-large>mdi-bank</v-icon> O que valorizamos </h2>
                         <p>Eficiência na entrega e a ótima qualidade do produto são os pilares do serviço.</p>
                     </v-flex>
                 </v-layout>
@@ -32,7 +32,7 @@
                 </v-layout>
                 <div class="text-center mt-4">
                     <v-btn text>
-                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/catalogo_boticario.pdf?alt=media&token=58ddd4e8-c3f7-4b05-bf90-c006a88a6a29" target="_blank"> 
+                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/boticario_ciclo14.pdf?alt=media&token=8f34ab3a-607b-472f-8159-8a7a0ee3abeb" target="_blank"> 
                             <v-icon >mdi-download</v-icon> Catálogo completo
                         </a>
                     </v-btn>
@@ -55,7 +55,7 @@
                 </v-layout>
                 <div class="text-center mt-4">
                     <v-btn text >
-                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/catalogo_natura.pdf?alt=media&token=8d1df2e1-0628-4183-9841-4f8216506881" target="_blank"> 
+                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/natura_ciclo16.pdf?alt=media&token=7b245c47-f8a8-42b2-ac53-bf086b5adfd9" target="_blank"> 
                             <v-icon >mdi-download</v-icon> Catálogo completo
                         </a>
                     </v-btn>
@@ -78,7 +78,7 @@
                 </v-layout>
                 <div class="text-center mt-4">
                     <v-btn text >
-                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/catalogo_hinode.pdf?alt=media&token=418c9ab3-c134-485d-bdbf-cfadfd9a96d6" target="_blank"> 
+                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/hinode_ciclo3.pdf?alt=media&token=65beb1dd-0a38-4012-8f64-63b6c411634a" target="_blank"> 
                             <v-icon >mdi-download</v-icon>  Catálogo completo
                         </a>
                     </v-btn>
@@ -102,7 +102,7 @@
                 </v-layout>
                 <div class="text-center mt-4">
                     <v-btn text >
-                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/catalogo_eudora.pdf?alt=media&token=e5dbbe99-2ca2-40e0-bb3a-c9dbf0f76627" target="_blank"> 
+                        <a style="text-decoration: none; color: black" href="https://firebasestorage.googleapis.com/v0/b/cosmeticos-rose.appspot.com/o/eudora_ciclo13.pdf?alt=media&token=00a860d0-0902-4e1d-a3fc-2127ae57be8f" target="_blank"> 
                             <v-icon >mdi-download</v-icon> Catálogo completo
                         </a>
                     </v-btn>
@@ -155,7 +155,7 @@ export default {
         font-size: 20px;
         margin-left: 20px;
         font-family: 'Times New Roman';
-        text-indent: 2em;
+        
     }
     section{
         min-height: 300px;

@@ -11,7 +11,7 @@
     "@fortawesome/fontawesome-free": "^5.10.2",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
-    "vuetify": "^2.0.15"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@mdi/font": "^4.3.95",
